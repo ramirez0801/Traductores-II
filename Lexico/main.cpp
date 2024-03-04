@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     lexico lex;
-    lex.entrada("ac + + * / - + + < >= <= + { } ( ) | &");
+    lex.entrada("+ + * / - + + < >= <= + { } ( ) | &");
 
     cout<< "\tResultado"<<endl<<endl;
     cout<< "Simbolo\t\tTipo"<<endl;
