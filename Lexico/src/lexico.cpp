@@ -127,16 +127,6 @@ int lexico::sigSimbolo()
                 else if( c == '$')
                         acepta(23);
                 break;
-            case 1:
-                string aux;
-                cout<<"indicador "<<ind<<endl;
-                for(i = ind; c != ' '; i++)
-                {
-                    if(fuente[i])
-                }
-                conti = false;
-                break;
-
         }
     }
 
